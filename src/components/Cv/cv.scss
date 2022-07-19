@@ -1,0 +1,27 @@
+.cv{
+    //margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+   // justify-content: center;
+}
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: #D8BE4B;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid #D8BE4B ;
+    transition: all 400ms ease;
+    text-decoration: none;
+    margin-top: 4px;
+  }
+.btn:hover{
+    background:#D8BE4B;
+    color: #1f1f38;
+   // border-color: transparent;
+  }
+  .btn-primary{
+    background: #D8BE4B;
+    color: #1f1f38;
+  }
